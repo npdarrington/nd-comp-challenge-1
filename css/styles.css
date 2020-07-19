@@ -127,8 +127,12 @@ main h1 {
 }
 
 .card-3 {
-  height: 40vh;
   grid-area: card-3;
+}
+
+.card-3 .card-top {
+  background: url(../images/sephiroth.jpg) no-repeat center;
+  background-size: cover;
 }
 
 .card-4 {
