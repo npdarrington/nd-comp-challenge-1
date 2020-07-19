@@ -136,8 +136,12 @@ main h1 {
 }
 
 .card-4 {
-  height: 40vh;
   grid-area: card-4;
+}
+
+.card-4 .card-top {
+  background: url(../images/Saitama.jpg) no-repeat center;
+  background-size: cover;
 }
 
 .card-5 {
