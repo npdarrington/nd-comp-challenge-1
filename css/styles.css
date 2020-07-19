@@ -172,6 +172,10 @@ main h1 {
 }
 
 .card-8 {
-  height: 40vh;
   grid-area: card-8;
+}
+
+.card-8 .card-top {
+  background: url(../images/yusuke.jpg) no-repeat center;
+  background-size: cover;
 }
