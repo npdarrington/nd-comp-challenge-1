@@ -118,8 +118,12 @@ main h1 {
 }
 
 .card-2 {
-  height: 40vh;
   grid-area: card-2;
+}
+
+.card-2 .card-top {
+  background: url(../images/ghoul_kaneki.png) no-repeat center;
+  background-size: cover;
 }
 
 .card-3 {
