@@ -13,6 +13,22 @@ main h1 {
   margin: 40px 0 0 40px;
 }
 
+.admin-login {
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.profile-img {
+  width: 1.2em;
+  height: 1.2em;
+}
+
+.caret-down {
+  height: 0.6em;
+  width: auto;
+}
+
 .character-cards {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
