@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 header {
   background: gray;
   height: 15vh;
@@ -19,12 +23,13 @@ main h1 {
 }
 
 .character-cards .card-top {
-  background: url(../images/cloud_strife.jpg) no-repeat;
-  background-size: contain;
+  background: url(../images/cloud_strife.jpg) no-repeat center;
+  background-size: cover;
   width: 100%;
-  height: 100%;
+  height: 15em;
   display: flex;
   position: relative;
+  border-bottom: 2px solid black;
 }
 
 .card-top img {
@@ -55,8 +60,57 @@ main h1 {
   align-self: center;
 }
 
+.cards {
+  border: inset 5px rgb(255, 230, 142);
+}
+
+.card-bottom {
+  background: url(../images/card-body-background.jpg) no-repeat center;
+  background-size: cover;
+  padding: 8px 15px;
+  height: 100%;
+}
+
+.character-name {
+  font-family: 'Rowdies', cursive;
+  font-size: 1.6em;
+  letter-spacing: 1px;
+}
+
+.url-link {
+  padding: 10px;
+  background-color: #EFEFEF;
+}
+
+.card-bottom h4 {
+  margin: 0.7em 0;
+}
+
+.card-bottom h6 {
+  font-size: 0.9rem;
+  margin: 1.5em 0 0.2em 0;
+}
+
+.character-status {
+  font-size: 0.9em;
+  margin: 0.2em 0;
+}
+
+.character-status-p {
+  font-size: 0.9em;
+  margin: 0.4em 0;
+  color: rgb(45, 157, 38);
+}
+
+.follower-count {
+  font-size: 1.7em;
+  margin: 0.2em 0;
+  color: blue;
+  font-style: italic;
+  font-weight: bold;
+}
+
 .card-1 {
-  height: 40vh;
   grid-area: card-1;
 }
 
