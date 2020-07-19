@@ -8,7 +8,9 @@ header {
 }
 
 main h1 {
-  margin-left: 40px;
+  font-family: 'Shojumaru', cursive;
+  font-size: 3rem;
+  margin: 40px 0 0 40px;
 }
 
 .character-cards {
