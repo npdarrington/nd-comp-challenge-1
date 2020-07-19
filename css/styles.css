@@ -154,8 +154,12 @@ main h1 {
 }
 
 .card-6 {
-  height: 40vh;
   grid-area: card-6;
+}
+
+.card-6 .card-top {
+  background: url(../images/kurama.jpg) no-repeat center;
+  background-size: cover;
 }
 
 .card-7 {
