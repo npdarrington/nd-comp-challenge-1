@@ -1,0 +1,67 @@
+header {
+  background: gray;
+  height: 15vh;
+}
+
+main h1 {
+  margin-left: 40px;
+}
+
+.character-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 40px;
+  grid-template-areas:
+    "card-1 card-2 card-3 card-4"
+    "card-5 card-6 card-7 card-8";
+  padding: 40px;
+}
+
+.card-1 {
+  height: 40vh;
+  background: blue;
+  grid-area: card-1;
+}
+
+.card-2 {
+  height: 40vh;
+  background: blue;
+  grid-area: card-2;
+}
+
+.card-3 {
+  height: 40vh;
+  background: blue;
+  grid-area: card-3;
+}
+
+.card-4 {
+  height: 40vh;
+  background: blue;
+  grid-area: card-4;
+}
+
+.card-5 {
+  height: 40vh;
+  background: blue;
+  grid-area: card-5;
+}
+
+.card-6 {
+  height: 40vh;
+  background: blue;
+  grid-area: card-6;
+}
+
+.card-7 {
+  height: 40vh;
+  background: blue;
+  grid-area: card-7;
+}
+
+.card-8 {
+  height: 40vh;
+  background: blue;
+  grid-area: card-8;
+}
