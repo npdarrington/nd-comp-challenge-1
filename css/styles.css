@@ -2,9 +2,13 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Rowdies', cursive;
+}
+
 header {
-  background: gray;
-  height: 15vh;
+  background: black;
+  height: 20vh;
 }
 
 main h1 {
@@ -26,6 +30,37 @@ main h1 {
 
 .caret-down {
   height: 0.6em;
+  width: auto;
+}
+
+.nav-bar {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.coliseum-logo {
+  height: 40px;
+  width: auto;
+  margin-right: 10px;
+}
+
+.battle-stats-logo {
+  height: 40px;
+  width: auto;
+  margin-right: 10px;
+}
+
+.match-records-logo {
+  height: 40px;
+  width: auto;
+  margin-right: 10px;
+}
+
+.logo {
+  height: 75px;
   width: auto;
 }
 
@@ -94,7 +129,6 @@ main h1 {
 }
 
 .character-name {
-  font-family: 'Rowdies', cursive;
   font-size: 1.6em;
   letter-spacing: 1px;
 }
