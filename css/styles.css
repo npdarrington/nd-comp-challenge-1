@@ -145,8 +145,12 @@ main h1 {
 }
 
 .card-5 {
-  height: 40vh;
   grid-area: card-5;
+}
+
+.card-5 .card-top {
+  background: url(../images/zoro.jpg) no-repeat center;
+  background-size: cover;
 }
 
 .card-6 {
