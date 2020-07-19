@@ -61,6 +61,7 @@ main h1 {
 .cards {
   border: inset 5px rgb(255, 230, 142);
   box-shadow: 6px 6px 2px 1px rgba(0, 0, 0, .4);
+  min-width: 275px;
 }
 
 .cards:hover {
@@ -183,4 +184,40 @@ main h1 {
 .card-8 .card-top {
   background: url(../images/yusuke.jpg) no-repeat center;
   background-size: cover;
+}
+
+@media screen and (max-width: 1024px) {
+  .character-cards {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+      "card-1 card-2 card-3"
+      "card-4 card-5 card-6"
+      "card-7 card-8 .";
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .character-cards {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      "card-1 card-2"
+      "card-3 card-4"
+      "card-5 card-6"
+      "card-7 card-8";
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .character-cards {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "card-1"
+      "card-2"
+      "card-3"
+      "card-4"
+      "card-5"
+      "card-6"
+      "card-7"
+      "card-8";
+  }
 }
