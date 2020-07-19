@@ -163,8 +163,12 @@ main h1 {
 }
 
 .card-7 {
-  height: 40vh;
   grid-area: card-7;
+}
+
+.card-7 .card-top {
+  background: url(../images/Luffy.jpg) no-repeat center;
+  background-size: cover;
 }
 
 .card-8 {
