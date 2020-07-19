@@ -22,7 +22,7 @@ main h1 {
   padding: 40px;
 }
 
-.character-cards .card-top {
+.card-top {
   width: 100%;
   height: 15em;
   display: flex;
@@ -31,8 +31,8 @@ main h1 {
 }
 
 .card-top img {
-  width: 50px;
-  height: 50px;
+  width: 20%;
+  height: 25%;
   margin-top: 10px;
   margin-left: 5px;
 }
@@ -47,7 +47,7 @@ main h1 {
 }
 
 .card-top img:hover {
-  transform: scale(1.5);
+  transform: scale(1.2);
   transition: all 0.5s;
   cursor: pointer;
 }
@@ -60,13 +60,18 @@ main h1 {
 
 .cards {
   border: inset 5px rgb(255, 230, 142);
+  box-shadow: 6px 6px 2px 1px rgba(0, 0, 0, .4);
+}
+
+.cards:hover {
+  transform: scale(1.1);
+  transition: all 1.0s;
 }
 
 .card-bottom {
   background: url(../images/card-body-background.jpg) no-repeat center;
   background-size: cover;
   padding: 8px 15px;
-  height: 100%;
 }
 
 .character-name {
