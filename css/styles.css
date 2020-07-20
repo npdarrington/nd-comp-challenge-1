@@ -1,0 +1,337 @@
+* {
+  box-sizing: border-box;
+}
+
+.admin-login a,
+.nav-bar a {
+  text-decoration: none;
+  color: white;
+}
+
+.admin-login a:hover,
+.nav-bar a:hover {
+  color: rgb(75, 199, 245);
+  border-bottom: 1px solid rgb(75, 199, 245);
+}
+
+body {
+  font-family: 'Rowdies', cursive;
+}
+
+header {
+  background: #080705;
+  height: 20vh;
+}
+
+main {
+  background: url(../images/body-background.jpg) no-repeat center;
+  background-size: cover;
+}
+
+main h1 {
+  font-family: 'Shojumaru', cursive;
+  color: white;
+  letter-spacing: 3px;
+  font-size: 3rem;
+  padding: 40px 0 0 40px;
+  margin: 0;
+}
+
+.admin-login {
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.admin-login img {
+  vertical-align: middle;
+}
+
+.profile-img {
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.caret-down {
+  height: 0.6em;
+  width: auto;
+}
+
+.nav-bar {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.nav-bar img {
+  vertical-align: middle;
+}
+
+.nav-bar a {
+  font-size: 1.6em;
+}
+
+.coliseum-logo {
+  height: 40px;
+  width: auto;
+  margin-right: 10px;
+}
+
+.battle-stats-logo {
+  height: 40px;
+  width: auto;
+  margin-right: 10px;
+}
+
+.match-records-logo {
+  height: 40px;
+  width: auto;
+  margin-right: 10px;
+}
+
+.logo {
+  height: 85px;
+  width: 175px;
+}
+
+.character-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 40px;
+  grid-template-areas:
+    "card-1 card-2 card-3 card-4"
+    "card-5 card-6 card-7 card-8";
+  padding: 40px;
+}
+
+.card-top {
+  width: 100%;
+  height: 15em;
+  display: flex;
+  position: relative;
+  border-bottom: 2px solid black;
+}
+
+.card-top img {
+  width: 20%;
+  height: 25%;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.card-top .battle-count {
+  position: absolute;
+  right: 5px;
+  top: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-top img:hover {
+  transform: scale(1.2);
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.battle-count-large {
+  font-size: 1.8rem;
+  display: block;
+  align-self: center;
+}
+
+.cards {
+  border: inset 5px rgb(255, 230, 142);
+  box-shadow: 6px 6px 2px 1px rgba(0, 0, 0, .4);
+  min-width: 275px;
+}
+
+.cards:hover {
+  transform: scale(1.1);
+  transition: all 1.0s;
+}
+
+.card-bottom {
+  background: url(../images/card-body-background.jpg) no-repeat center;
+  background-size: cover;
+  padding: 8px 15px;
+}
+
+.character-name {
+  font-size: 1.6em;
+  letter-spacing: 1px;
+}
+
+.url-link {
+  padding: 10px;
+  background-color: #EFEFEF;
+}
+
+.card-bottom h4 {
+  margin: 0.7em 0;
+}
+
+.card-bottom h6 {
+  font-size: 0.9rem;
+  margin: 1.5em 0 0.2em 0;
+}
+
+.character-status {
+  font-size: 0.9em;
+  margin: 0.2em 0;
+}
+
+.character-status-p {
+  font-size: 0.9em;
+  margin: 0.4em 0;
+  color: rgb(45, 157, 38);
+}
+
+.follower-count {
+  font-size: 1.7em;
+  margin: 0.2em 0;
+  color: blue;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.card-1 {
+  grid-area: card-1;
+}
+
+.card-1 .card-top {
+  background: url(../images/cloud_strife.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.card-2 {
+  grid-area: card-2;
+}
+
+.card-2 .card-top {
+  background: url(../images/ghoul_kaneki.png) no-repeat center;
+  background-size: cover;
+}
+
+.card-3 {
+  grid-area: card-3;
+}
+
+.card-3 .card-top {
+  background: url(../images/sephiroth.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.card-4 {
+  grid-area: card-4;
+}
+
+.card-4 .card-top {
+  background: url(../images/Saitama.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.card-5 {
+  grid-area: card-5;
+}
+
+.card-5 .card-top {
+  background: url(../images/zoro.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.card-6 {
+  grid-area: card-6;
+}
+
+.card-6 .card-top {
+  background: url(../images/kurama.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.card-7 {
+  grid-area: card-7;
+}
+
+.card-7 .card-top {
+  background: url(../images/Luffy.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.card-8 {
+  grid-area: card-8;
+}
+
+.card-8 .card-top {
+  background: url(../images/yusuke.jpg) no-repeat center;
+  background-size: cover;
+}
+
+@media screen and (max-width: 1024px) {
+  .character-cards {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+      "card-1 card-2 card-3"
+      "card-4 card-5 card-6"
+      "card-7 card-8 .";
+  }
+
+  .nav-bar a {
+    font-size: 1.1em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .character-cards {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      "card-1 card-2"
+      "card-3 card-4"
+      "card-5 card-6"
+      "card-7 card-8";
+  }
+
+  .logo {
+    height: 75px;
+    width: 150px;
+  }
+
+  .nav-bar a {
+    font-size: 0.9em;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .character-cards {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "card-1"
+      "card-2"
+      "card-3"
+      "card-4"
+      "card-5"
+      "card-6"
+      "card-7"
+      "card-8";
+  }
+
+  .coliseum-logo {
+    height: 25px;
+  }
+
+  .battle-stats-logo {
+    height: 25px;
+  }
+
+  .match-records-logo {
+    height: 35px;
+  }
+
+  .logo {
+    height: 75px;
+    width: 150px;
+  }
+}
