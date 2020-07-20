@@ -2,12 +2,24 @@
   box-sizing: border-box;
 }
 
+.admin-login a,
+.nav-bar a {
+  text-decoration: none;
+  color: white;
+}
+
+.admin-login a:hover,
+.nav-bar a:hover {
+  color: rgb(75, 199, 245);
+  border-bottom: 1px solid rgb(75, 199, 245);
+}
+
 body {
   font-family: 'Rowdies', cursive;
 }
 
 header {
-  background: black;
+  background: #080705;
   height: 20vh;
 }
 
@@ -31,6 +43,10 @@ main h1 {
   justify-content: flex-end;
 }
 
+.admin-login img {
+  vertical-align: middle;
+}
+
 .profile-img {
   width: 1.2em;
   height: 1.2em;
@@ -47,6 +63,14 @@ main h1 {
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
+}
+
+.nav-bar img {
+  vertical-align: middle;
+}
+
+.nav-bar a {
+  font-size: 1.6em;
 }
 
 .coliseum-logo {
@@ -68,8 +92,8 @@ main h1 {
 }
 
 .logo {
-  height: 75px;
-  width: auto;
+  height: 100px;
+  width: 200px;
 }
 
 .character-cards {
@@ -254,6 +278,10 @@ main h1 {
       "card-4 card-5 card-6"
       "card-7 card-8 .";
   }
+
+  .nav-bar a {
+    font-size: 1.1em;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -264,6 +292,15 @@ main h1 {
       "card-3 card-4"
       "card-5 card-6"
       "card-7 card-8";
+  }
+
+  .logo {
+    height: 75px;
+    width: 150px;
+  }
+
+  .nav-bar a {
+    font-size: 0.9em;
   }
 }
 
@@ -279,5 +316,22 @@ main h1 {
       "card-6"
       "card-7"
       "card-8";
+  }
+
+  .coliseum-logo {
+    height: 25px;
+  }
+
+  .battle-stats-logo {
+    height: 25px;
+  }
+
+  .match-records-logo {
+    height: 35px;
+  }
+
+  .logo {
+    height: 75px;
+    width: 150px;
   }
 }
